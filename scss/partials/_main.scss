@@ -1,0 +1,115 @@
+main {
+  section{
+    h2{
+    background-color: cyan;
+    position: sticky;
+    top: 67px;
+    left: 0;
+    }
+
+    .gallery{
+      display: grid;
+      grid-template-columns: 1fr;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  section:nth-of-type(2){
+    h2{
+    background-color: cyan;
+    position: sticky;
+    top: 67px;
+    left: 0;
+    }
+
+    .gallery{
+      display: grid;
+      grid-template-columns: 1fr;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  section:nth-of-type(3){
+    h2{
+    background-color: cyan;
+    position: sticky;
+    top: 67px;
+    left: 0;
+    }
+
+    .gallery{
+      display: grid;
+      grid-template-columns: 1fr;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  
+  .fruit-hover{
+
+    h2{
+    background-color: cyan;
+    position: sticky;
+    top: 67px;
+    left: 0;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    figure {
+      position: relative;
+
+        figcaption {
+        display: none;
+        position: absolute;
+        color: white;
+        background-color: red;
+        top: 0;
+      }
+
+      &:hover{
+        figcaption{
+        display: block;
+        }
+      }
+    }
+
+    
+
+
+  }
+
+  .back-to-top-btn{
+    background-color: black;
+    color: white;
+    display: inline;
+    position: sticky;
+    bottom: 0;
+    float: right;
+
+    a:visited{
+      color: white;
+    }
+
+    &:hover{
+      color: white;
+    }
+
+  }
+}
+
+
